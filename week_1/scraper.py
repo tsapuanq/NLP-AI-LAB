@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 from bs4 import BeautifulSoup
+import re 
 
 load_dotenv()
 accounts = [
